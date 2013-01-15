@@ -12,7 +12,6 @@ import justf0rfun.cybersoccer.gui.swing.CyberSoccerFrame
 import justf0rfun.cybersoccer.model.MatchConfiguration
 import justf0rfun.cybersoccer.model.SoccerField
 import justf0rfun.cybersoccer.controller.PublishAndSubscribeProtocol
-import akka.util.Duration
 import java.util.concurrent.TimeUnit
 import justf0rfun.cybersoccer.gui.swing.SoccerEventsFrame
 
