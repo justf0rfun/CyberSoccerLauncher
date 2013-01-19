@@ -39,7 +39,18 @@
 							<goal>compile</goal>
 						</goals>
 					</execution>
-				</executions>						
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<configuration>
+					<archive>
+						<manifest>
+							<mainClass>justf0rfun.cybersoccer.launcher.Launcher</mainClass>
+						</manifest>
+					</archive>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
